@@ -3,4 +3,4 @@ Miinaharavassa auttava botti.<br />
 
 ### Dokumentaation
 <br />
-[aiheen kuvaus](documentation/aiheenKuvausJaRakenne.md) <br />
+[Määrittely](documentation/aiheenKuvausJaRakenne.md) <br />
