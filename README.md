@@ -5,4 +5,3 @@ Miinaharavassa auttava botti.<br />
 <br />
 [Määrittely](documentation/aiheenKuvausJaRakenne.md) <br />
 [Tuntikirjanpito](documentation/Tuntikirjanpito.md) <br />
-...
