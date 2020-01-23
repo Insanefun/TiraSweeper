@@ -8,7 +8,7 @@ Miinaharavassa auttava botti.<br />
 [Tuntikirjanpito](../blob/master/documentation/tuntikirjanpito) <br />
 =======
 [MÃ¤Ã¤rittely](documentation/aiheenKuvausJaRakenne.md) <br />
-[Tuntikirjanpito](https://github.com/Insanefun/TiraSweeper/blob/master/documentation/Tuntikirjanpito.md) <br />
+[Tuntikirjanpito](https://github.com/Insanefun/TiraSweeper/blob/master/documentation/tuntikirjanpito.md) <br />
 >>>>>>> origin/master
 <br />
 
