@@ -1,4 +1,4 @@
-470582﻿### tuntikirjanpito
+### tuntikirjanpito
 Päivä| Tunnit | Kuvaus
 --------------- | ----- | ------
 18.01.2020 | 2.5h | Aiheen suunnittelua ja repon luonti
