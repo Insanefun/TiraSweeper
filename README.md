@@ -5,7 +5,7 @@ Miinaharavassa auttava botti.<br />
 <br />
 <<<<<<< HEAD
 [Määrittely](https://github.com/Insanefun/TiraSweeper/blob/master/documentation/aiheenKuvausJaRakenne.md) <br />
-[Tuntikirjanpito](https://github.com/Insanefun/TiraSweeper/blob/master/documentation/tuntikirjanpito.mdhttps://github.com/Insanefun/TiraSweeper/blob/master/documentation/tuntikirjanpito.md) <br />
+<br />
 =======
 [MÃ¤Ã¤rittely](documentation/aiheenKuvausJaRakenne.md) <br />
 [Tuntikirjanpito](https://github.com/Insanefun/TiraSweeper/blob/master/documentation/tuntikirjanpito.md) <br />
