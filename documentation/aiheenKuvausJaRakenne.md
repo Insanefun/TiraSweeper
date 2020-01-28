@@ -1,4 +1,4 @@
-﻿###Aiheen määrittely <br />
+﻿### Aiheen määrittely <br />
 Miinaharavassa auttava botti.<br />
 Botti pyrkii määrittämään turvallisimmat siirrot ja ehdottamaan niitä. Se myös pyrkii tunnistamaan varmasti pelin lopettavat siirrot. 
 Tärkein ominaisuus ehkä tunnistaa pelattavissa olevat ruudut, antaa niiden todennäisyyksien mukaan ehdotuksia seuraavasta siirrosta ja päivittää
