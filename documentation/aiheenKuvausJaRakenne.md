@@ -8,3 +8,5 @@ olisi hyvä että se toimisi kohtuullisessa ajassa. Botin tulisi tarkistaa avaam
 yhtäsuuri kuin avaamattomien ruutujen määrä tulisi kaikkiin niihin automaattisesti laittaa flag, toisaalta jos numero on yhtäsuuri kun lipulla merkityt
 ruudut, ovat muut ruudut turvallisia. Tämä jättäisi punaiset ruudut "vaarallisiksi" oletetuille siirroille, tai ehkäpä siirroille jotka helpottaisivat tulevia
 siirtoja (toisaalata tämän hyödyntämien vaatisi että botti tuntee mahdolliset tulokset jotka siirroista seuraisi) ja näin nostaisivat voiton todennäköisyyttä.
+Koskaan ei pitäisi olla mahdollista, että jonkin viereisen ruudun vieressä ei ole yhtään ei flagittua miinaa ja samaan aikaan toisen viereisen kaikki miinat on flagittu.
+Täten voi botti voi lähes huoletta luottaa, että jos jompikumpi näistä yrityistapauksista tapahtuu voi se toimia kyseisen tapauksen pohjalta.

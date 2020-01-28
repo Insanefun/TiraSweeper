@@ -1,5 +1,5 @@
 
-package minesweeper.bot;
+package java.minesweeper.bot;
 
 import java.util.HashSet;
 import java.util.Random;
@@ -38,7 +38,7 @@ import minesweeper.model.Square;
  * makeMove() method.
  * </p>
  */
-public class TestBot implements Bot {
+public class TiraBot implements Bot {
 
     private Random rng = new Random();
     private GameStats gameStats;
