@@ -10,3 +10,13 @@ ruudut, ovat muut ruudut turvallisia. Tämä jättäisi punaiset ruudut "vaarall
 siirtoja (toisaalata tämän hyödyntämien vaatisi että botti tuntee mahdolliset tulokset jotka siirroista seuraisi) ja näin nostaisivat voiton todennäköisyyttä.
 Koskaan ei pitäisi olla mahdollista, että jonkin viereisen ruudun vieressä ei ole yhtään ei flagittua miinaa ja samaan aikaan toisen viereisen kaikki miinat on flagittu.
 Täten voi botti voi lähes huoletta luottaa, että jos jompikumpi näistä yrityistapauksista tapahtuu voi se toimia kyseisen tapauksen pohjalta.
+Jos mitään ehdotuksia ei voida tehdä näiden toimien perusteella voidaan tutkia tutkia peli lautaa suuremassa mittakaavassa. Voi viedä enemmän aikaa. 
+Esimerkiksi tilanteesa jossa on vierekkäin 1 2 1
+
+| ■ | ■ | ■ |
+|---|---|---|
+| 1 | 2 | 1 |
+
+On ihmisen helppo päätellä että kummankin 1 yläpuolella olisi miina. Myös botti pystyy huomaamaan tälläisen seuraussuhteen.
+Jos botti tuntee jokaisen numeroidun ruudun voi se yrittää luoda kopion kaikista mahdollisista miinojen sijainneista ja näin tunnistaa
+sellaiset ruudut joissa ei voi olla miinoja.
