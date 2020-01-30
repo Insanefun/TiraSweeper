@@ -17,6 +17,10 @@ Esimerkiksi tilanteesa jossa on vierekkäin 1 2 1
 |---|---|---|
 | 1 | 2 | 1 |
 
+(2 yläpuolella ei voi olla miinaa sillä tällöin jommankumman 1 vieressä olisi 2 miinaa.)
+
 On ihmisen helppo päätellä että kummankin 1 yläpuolella olisi miina. Myös botti pystyy huomaamaan tälläisen seuraussuhteen.
 Jos botti tuntee jokaisen numeroidun ruudun voi se yrittää luoda kopion kaikista mahdollisista miinojen sijainneista ja näin tunnistaa
-sellaiset ruudut joissa ei voi olla miinoja.
+sellaiset ruudut joissa ei voi olla miinoja. Tärkeitä ovat siis ne ne ruudut joitten vieressä on miinoja(surroundingMines() > 0;)
+ja joiden kaikkia viereisiä miinoja ei tunneta. Nämä ruudut muodostavat joukon jonka viereiset avatut ruudut ovat botille mielenkiintoisia
+sillä ne sisältävät tietoa joukossa olevista miinoista.
