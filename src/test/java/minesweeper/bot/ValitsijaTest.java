@@ -32,7 +32,7 @@ public class ValitsijaTest extends TestCase {
     
     //Luo testit ympäristössä jossa komennot toimivat.
     //Toimii oikein joissain ympäristöissä, toisilla ei kompiloi.
-    public void testehdota(){
+    public void testEhdota(){
         Valitsija k = new Valitsija();
         board.getSquareAt(2, 2).setMine();
         board.getSquareAt(2, 4).setMine();
@@ -43,5 +43,24 @@ public class ValitsijaTest extends TestCase {
         board.getSquareAt(2, 1);
         int negat = k.ehdotus(1, 1, board);
         assertTrue(negat < 0);
+    }
+    //jos rajatapaukset muuttuvat voi muuttua
+    public void testEhdotNul(){
+        Valitsija k = new Valitsija();
+        board.getSquareAt(2, 2).setMine();
+        board.getSquareAt(2, 4).setMine();
+        board.getSquareAt(5, 3).setMine();
+        board.getSquareAt(5, 5).setMine();
+        board.getSquareAt(1, 2).open();
+        board.getSquareAt(2, 1);
+        int nolla = k.ehdota(1, 1, board);
+        assertTrue(nolla == 0);
+    }
+    public void testEhdotPos(){
+        Valitsija k = new Valitsija();
+        board.getSquareAt(5, 5).setMine();
+        board.getSquareAt(1, 1).open();
+        int pos = k.ehdota(1, 1, board);
+        assertTrue(pos > 0);
     }
 }

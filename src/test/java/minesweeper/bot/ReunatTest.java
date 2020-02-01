@@ -31,8 +31,7 @@ public class ReunatTest extends TestCase {
         super.tearDown();
     }
 
-    // TODO add test methods here. The name must begin with 'test'. For example:
-    // public void testHello() {}
+    
     public void testMiina(){
         Reunat k = new Reunat();
         board.getSquareAt(2, 2).setMine();
