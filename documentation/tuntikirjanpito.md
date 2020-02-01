@@ -6,3 +6,7 @@ Päivä| Tunnit | Kuvaus
 22.01.2020 | 2h | Ongelmien korjailu ja uudelleen määrittely
 23.01.2020 | 4h | Ongelmien korjailu
 25.01.2020 | 3h | Miinaharavan toimintaan tutustuminen ja algoritmien vaatimuksien pohdinta
+27.01.2020 | 2h | Perus toteutus, suunnittelu ja testien toimivuuden testaus NetBeans ympäristössä
+29.01.2020 | 2h | Botin logiikan täsmentäminen ja perus toiminnan jatko
+30.01.2020 | 2h | Reuna metodien toteutuksen aloitus
+01.02.2020 | 3h | Testien jatko, metodien toiminnan varmistaminen ja NetBeans ympäristön toiminnan tutkiminen ja viikkoraportin luonti
