@@ -63,4 +63,22 @@ public class ValitsijaTest extends TestCase {
         int pos = k.ehdota(1, 1, board);
         assertTrue(pos > 0);
     }
+    public void testEhdota2(){
+        Valitsija k = new Valitsija();
+        board.getSquareAt(3, 3).setMine();
+        board.getSquareAt(2, 2).open();
+        board.getSquareAt(2, 3).open();
+        board.getSquareAt(2, 4).open();
+        board.getSquareAt(3, 2).open();
+        board.getSquareAt(3, 4).open();
+        board.getSquareAt(4, 2).open();
+        board.getSquareAt(4, 3).open();
+        board.getSquareAt(4, 4).open();
+        board.getSquareAt(2, 5).open();
+        board.getSquareAt(3, 5).open();
+        board.getSquareAt(4, 5).open();
+        board.getSquareAt(5, 5).open();
+        int t = k.ehdota(3, 3, board);
+        assertTrue(t < 0);
+    }
 }
