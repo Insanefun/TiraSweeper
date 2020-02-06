@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java.minesweeper.bot;
+package minesweeper.bot;
 
 import minesweeper.model.Board;
 import minesweeper.model.Square;

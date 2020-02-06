@@ -1,8 +1,11 @@
 
-package java.minesweeper.bot;
+package minesweeper.bot;
 
 import java.util.HashSet;
 import java.util.Random;
+
+import min.minesweeper.bot.Reunat;
+
 import java.util.ArrayList;
 import minesweeper.model.Board;
 import minesweeper.model.GameStats;
@@ -84,9 +87,27 @@ public class TiraBot implements Bot {
     public ArrayList<Move> getPossibleMoves(Board board) {
         ArrayList<Move> movesToMake = new ArrayList<>();
         HashSet<Pair<Integer>> pairs = new HashSet();
+        Reunat r = new Reunat();
+        Pair<Integer> pair = new Pair<>(0, 0);
+        HashSet<Square> reunalla = r.laske(board);
+        for(Square sq : reunalla){
+            pair = new Pair<>(sq.getX(), sq.getY());
+            pairs.add(pair);
+        }
+        //Nyt pitäisi olla joukko reunalla olevia(mielenkiintoisia) pareja.(Toistaiseksi avttuja ruutuja,pitäisi suljettuja)
+        Valitsija valinta = new Valitsija();
+        for(Pair<Integer> pr : pairs){
+            int ehdotus = valinta.ehdota(pr.first, pr.second, board);
+            if(ehdotus > 0){
+            movesToMake.add(new Move(pr.first,pr.second,Highlight.GREEN));
+            }else if(ehdotus < 0){
+                movesToMake.add(new Move(pr.first,pr.second,Highlight.RED));
+            }
+
+        } 
 
         //Chooses a random amount of moves to make between 1 and total number of mines
-        int movesToReturn = rng.nextInt(board.totalMines) + 1;
+        /* int movesToReturn = rng.nextInt(board.totalMines) + 1;
 
         for (int i = 0; i < movesToReturn; i++) {
             Boolean found = false;
@@ -110,7 +131,7 @@ public class TiraBot implements Bot {
                 //if a square is not found, skips the rest of the for loop
                 i = movesToReturn;
             }
-        }
+        } */
         return movesToMake;
     }
 

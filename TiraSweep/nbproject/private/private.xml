@@ -3,19 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/bot/BotExecutor.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/bot/TiraBot.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/bot/Valitsija.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/bot/TestBot.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/test/java/minesweeper/bot/ReunatTest.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/test/java/minesweeper/bot/TestBotTest.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/bot/Bot.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/model/Board.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/test/java/minesweeper/bot/ValitsijaTest.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/bot/Reunat.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/model/Square.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/bot/BotSelect.java</file>
-            <file>file:/C:/Users/User/Documents/GitHub/minesweeper/src/main/java/minesweeper/gui/GameView.java</file>
+            <file>file:/home/saajaro/git/TiraSweeper/src/main/java/minesweeper/bot/Valitsija.java</file>
+            <file>file:/home/saajaro/git/TiraSweeper/src/main/java/java/minesweeper/bot/NewMain.java</file>
+            <file>file:/home/saajaro/git/TiraSweeper/src/main/java/minesweeper/App.java</file>
+            <file>file:/home/saajaro/git/TiraSweeper/src/main/java/minesweeper/bot/TiraBot.java</file>
+            <file>file:/home/saajaro/git/TiraSweeper/src/main/java/minesweeper/gui/GameView.java</file>
         </group>
     </open-files>
 </project-private>

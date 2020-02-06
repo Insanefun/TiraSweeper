@@ -1,5 +1,5 @@
 
-package java.minesweeper.bot;
+package minesweeper.bot;
 
 import junit.framework.TestCase;
 import minesweeper.generator.MinefieldGenerator;
