@@ -1,5 +1,5 @@
 
-package minesweeper.model;
+package minesw.minesweeper.model;
 
 import org.junit.Test;
 import org.junit.After;

@@ -1,5 +1,5 @@
 
-package minesweeper.bot;
+package minesw.minesweeper.bot;
 
 import org.junit.Test;
 import org.junit.After;

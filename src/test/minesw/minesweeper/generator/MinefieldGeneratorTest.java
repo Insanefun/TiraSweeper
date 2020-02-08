@@ -1,5 +1,5 @@
 
-package minesweeper.generator;
+package minesw.minesweeper.generator;
 
 import org.junit.After;
 import org.junit.Before;

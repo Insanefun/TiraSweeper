@@ -1,7 +1,8 @@
 
-package minesweeper.bot;
+package minesw.minesweeper.bot;
 
 import junit.framework.TestCase;
+import minesweeper.bot.Valitsija;
 import minesweeper.generator.MinefieldGenerator;
 import minesweeper.model.Board;
 import static org.junit.Assert.assertTrue;

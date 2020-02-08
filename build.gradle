@@ -76,4 +76,8 @@ task headlessTest(type:JavaExec) {
    classpath = sourceSets.main.runtimeClasspath
    main = 'minesweeper.TestApp'
 }
+compileJava.options.encoding = 'UTF-8'
 
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}

@@ -1,4 +1,4 @@
-package minesweeper;
+package minesw.minesweeper;
 
 import org.junit.After;
 import static org.junit.Assert.assertFalse;

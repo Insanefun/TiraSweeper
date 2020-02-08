@@ -1,9 +1,10 @@
 
-package minesweeper.bot;
+package minesw.minesweeper.bot;
 
 import min.minesweeper.bot.Reunat;
 import java.util.HashSet;
 import junit.framework.TestCase;
+import min.minesweeper.bot.Reunat;
 import minesweeper.generator.MinefieldGenerator;
 import minesweeper.model.Board;
 import minesweeper.model.Square;

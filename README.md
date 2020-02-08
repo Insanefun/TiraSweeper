@@ -18,3 +18,5 @@ Viikko raportit:
 [Viikkoraportti 2](https://github.com/Insanefun/TiraSweeper/blob/master/documentation/viikkoraportti2.md)
 
 [Viikkoraportti 3](https://github.com/Insanefun/TiraSweeper/blob/master/documentation/viikkoraportti3.md)
+
+[Viikkoraportti 4](https://github.com/Insanefun/TiraSweeper/blob/master/documentation/viikkoraportti4.md)
