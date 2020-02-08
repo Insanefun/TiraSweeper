@@ -39,5 +39,36 @@ public class Reunat {
         }
         return reunalla;
     }
+    /**
+    *Return set of closed squares that are next to open squares. 
+     */
+     //wip
+    public HashSet<Square> laskeu(Board board){
+        HashSet<Square> avatut = board.getOpenSquares();
+        HashSet<Square> reunallau = new HashSet<Square>();
+         for(Square sq : avatut){
+            int flagged = 0;
+            for (int i = -1; i <= 1; i++){
+            for (int o = -1; o <= 1; o++) {
+                if (i == 0 && o == 0) {
 
+                } else {
+                    if (board.withinBoard(sq.getX() + i, sq.getY() + o)) {
+                        Square a = board.getSquareAt(sq.getX() + i, sq.getY() + o);
+                        if (!a.isOpened()) {
+                            reunallau.add(a);
+                        }
+                    }
+                }
+            }
+            }
+            
+            if(q != 0){
+                reunallau.add(sq);
+            }
+        }
+
+        
+        return reunallau;
+    }
 }

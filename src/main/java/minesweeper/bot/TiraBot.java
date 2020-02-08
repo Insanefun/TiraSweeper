@@ -85,16 +85,17 @@ public class TiraBot implements Bot {
      */
     @Override
     public ArrayList<Move> getPossibleMoves(Board board) {
+        HashSet<Pair<Integer>> pairss = new HashSet();
         ArrayList<Move> movesToMake = new ArrayList<>();
         HashSet<Pair<Integer>> pairs = new HashSet();
         Reunat r = new Reunat();
         Pair<Integer> pair = new Pair<>(0, 0);
-        HashSet<Square> reunalla = r.laske(board);
+        HashSet<Square> reunalla = r.laskeu(board);
         for(Square sq : reunalla){
             pair = new Pair<>(sq.getX(), sq.getY());
             pairs.add(pair);
         }
-        //Nyt pitäisi olla joukko reunalla olevia(mielenkiintoisia) pareja.(Toistaiseksi avttuja ruutuja,pitäisi suljettuja)
+        //Nyt pitäisi olla joukko reunalla olevia(mielenkiintoisia) pareja.
         Valitsija valinta = new Valitsija();
         for(Pair<Integer> pr : pairs){
             int ehdotus = valinta.ehdota(pr.first, pr.second, board);
@@ -102,7 +103,12 @@ public class TiraBot implements Bot {
             movesToMake.add(new Move(pr.first,pr.second,Highlight.GREEN));
             }else if(ehdotus < 0){
                 movesToMake.add(new Move(pr.first,pr.second,Highlight.RED));
+
+            }else{
+                pairss.add(pr);
             }
+            //yksinkertaiset poistuvat(kaikki miinoja/ei miinoja)
+            //Lisää kehotus yksinkertaisille siirroille(1,2,1) etc
 
         } 
 
