@@ -1,7 +1,7 @@
 
 package minesw.minesweeper.bot;
 
-import min.minesweeper.bot.Reunat;
+import minesweeper.bot.Reunat;
 import java.util.HashSet;
 import junit.framework.TestCase;
 import min.minesweeper.bot.Reunat;
