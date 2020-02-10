@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  *
- * @author User
+ * @author Insanefun
  */
 public class ReunatTest extends TestCase {
     private MinefieldGenerator generator;
@@ -41,5 +41,23 @@ public class ReunatTest extends TestCase {
         Square q = board.getSquareAt(2, 3);
         HashSet<Square> reunalla = k.laske(board);
         assertTrue(reunalla.contains(q));
+    }
+    public void testSuljettu(){
+        Reunat k = new Reunat();
+        board.getSquareAt(2, 2).setMine();
+        board.getSquareAt(2, 3).open();
+        Square q = board.getSquareAt(2, 2);
+        HashSet<Square> reunalla = k.laske(board);
+        assertTrue(reunalla.contains(q));
+    }
+    public void testSuljettuMiina(){
+        Reunat k = new Reunat();
+        board.getSquareAt(2, 2).setMine();
+        board.getSquareAt(2, 3).open();
+        board.getSquareAt(1, 1).open();
+        Square q = board.getSquareAt(2, 2);
+        q.toggleFlagged();
+        HashSet<Square> reunalla = k.laske(board);
+        assertTrue(!reunalla.contains(q));
     }
 }

@@ -40,7 +40,9 @@ public class Reunat {
         return reunalla;
     }
     /**
-    *Return set of closed squares that are next to open squares. 
+    *Return set of closed squares that are next to open squares.
+    * @param board The current board and state of chosen board
+    * @return HashSet containing all the found closed squares next to open one(s). 
      */
      //wip
     public HashSet<Square> laskeu(Board board){
@@ -56,16 +58,16 @@ public class Reunat {
                     if (board.withinBoard(sq.getX() + i, sq.getY() + o)) {
                         Square a = board.getSquareAt(sq.getX() + i, sq.getY() + o);
                         if (!a.isOpened()) {
+                            if(!a.isFlagged){
                             reunallau.add(a);
+                            }
                         }
                     }
                 }
             }
             }
             
-            if(q != 0){
-                reunallau.add(sq);
-            }
+            
         }
 
         
