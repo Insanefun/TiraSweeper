@@ -14,3 +14,6 @@ Päivä| Tunnit | Kuvaus
 03.02.2020 | 2h | Toiminnallisuuden lisäys
 05.02.2020 | 2h | Ongelmien setviminen
 06.02.2020 | 2h | Ongelmien seviminen, linkitysten uudelleen määrittäminen ja luokkien laajennus
+10.02.2020 | 2h | Ongelmien seviminen, linkitysten uudelleen määrittäminen ja luokkien laajennus
+13.02.2020 | 4h | Liitännäisten ongelmien setviminen
+14.02.2020 | 2h | Ongelmien seviminen
